@@ -4,10 +4,10 @@
 #define PORT "2250"
 #define BACKLOG 1
 #define MAXSIZEDATA 1024
-#define DB_FILE_PATH "/home/ruiz1/Desktop/servers/FTAP/output/db/db.txt"
-#define CONNECTIONS_LOG_FILE_PATH "/home/ruiz1/Desktop/servers/FTAP/output/connections_log/client_connections.log"
-#define MESSAGES_LOG_FILE_PATH "/home/ruiz1/Desktop/servers/FTAP/output/connections_log/client_messages.log"
-#define SERVER_LOG_FILE_PATH "/home/ruiz1/Desktop/servers/FTAP/output/server_log/server.log"
+#define DB_FILE_PATH "output/db/db.txt"
+#define CONNECTIONS_LOG_FILE_PATH "output/connections_log/client_connections.log"
+#define MESSAGES_LOG_FILE_PATH "output/connections_log/client_messages.log"
+#define SERVER_LOG_FILE_PATH "output/server_log/server.log"
 #define MAX_LEN_USERNAME 64
 #define BUFFER_LEN_MAX_SIZE 64
 #define MAX_USER_NAME 9
