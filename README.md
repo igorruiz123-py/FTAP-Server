@@ -24,6 +24,7 @@ output/
 │   └── db.txt
 └── server_log/
     └── server.log
+```
 
 
 ### Makefile
