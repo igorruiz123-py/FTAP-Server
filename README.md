@@ -45,7 +45,7 @@ O programa servidor assim que executado fornece um menu interativo para o admin 
 nome de usuário que funciona da seguinte maneira: primeira letra do nome + sobrenome. Após o nome de usuário do cliente ser gerado o algoritmo gera a senha do cliente que é um número pseudo aleatório entre 1000 e 9999. A segunda opção (colocar o servidor online) põe o servidor em estado de LISTENING e escuta por conexões de clientes, para colocar o servidor offline é necessário interromper a execução do programa com Ctrl + C.
 
 
-## Técnologias utilizadas
+## Tecnologias utilizadas
 
 <p>
   <img src="assets/c.png" width="100" height="100"/>  <img src="assets/bash.png" width="200" height="200"/>  <img src="assets/makefile.png" width="200" height="200"/> 
