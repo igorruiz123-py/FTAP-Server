@@ -10,6 +10,8 @@ O protocolo FTAP dita, com códigos próprios, como a comunicação entre os doi
 
 O servidor captura diversos logs das interações do cliente com o servidor. Veja os significados dos logs em "doc/logs.txt".
 
+Veja pré requisitos em "docs/requirements.txt."
+
 ### Setup
 
 O projeto conta com um arquivo bash que cria a estrutura dos diretórios que são necessários para o funcionamento do servidor:
