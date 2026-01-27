@@ -1,0 +1,19 @@
+Significado dos logs das interações cliente-servidor
+
+1. output/server_log: O diretório output/server_log/server.log é utilizado para registrar quando o servidor é posto online.
+Ele fornece informações como: a data e a hora quando o servidor foi posto online.
+
+2. output/connections_log: Esse diretório é divido em dois subdiretórios: output/connections_log/client_connections.log e 
+output/connections_log/client_messages.log
+
+a - output/connections_log/client_connections.log: Esse diretório é utilizado para registrar quando um cliente abre um
+socket com o servidor. Ele guarda informações como: o IPv4 do cliente, a data e a hora que ele abriu o socket
+com o cliente e se o cliente fizer login com usuário e senha válidos o nome de usuário do cliente será registrado também
+
+b - output/connections_log/client_messages.log: Esse diretório é utilizado para registrar quando um cliente, já loggado com usuário
+e senha, envia uma mensagem ao servidor. Ele guarda informações como: a data e hora e do envio da mensagem, o IPv4 e o nome de usuário do cliente
+e a mensagem que o cliente enviou. 
+
+3. output/db/db.txt: Esse diretório é usado como banco de dados para a consulta do algoritmo de busca linear para validar a autenticação do 
+nome de usuário e senha do cliente. Ele guarda esses dados no formato: User: ***** Password: ******, de forma automática e o algoritmo de busca
+depende desse formato para funcionar.
