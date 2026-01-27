@@ -1,0 +1,4 @@
+Requesitos para o servidor funcionar corretamente:
+
+1. Linux Ubuntu 22.04.5 LTS x86_64 ou outras distribuições Linux
+2. Compilador gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0
