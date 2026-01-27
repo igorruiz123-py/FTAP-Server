@@ -14,6 +14,8 @@ O servidor captura diversos logs das interações do cliente com o servidor. Vej
 
 O projeto conta com um arquivo bash que cria a estrutura dos diretórios que são necessários para o funcionamento do servidor:
 
+
+```text
 output/
 ├── connections_log/
 │   ├── client_connections.log
@@ -22,6 +24,7 @@ output/
 │   └── db.txt
 └── server_log/
     └── server.log
+
 
 ### Makefile
 
@@ -44,5 +47,5 @@ nome de usuário que funciona da seguinte maneira: primeira letra do nome + sobr
 ## Técnologias utilizadas
 
 <p>
-  <img src="assets/c.png" width="100" height="100"/>  <img src="assets/bash.png" width="100" height="100"/>  <img src="assets/makefile.png" width="100" height="100"/> 
+  <img src="assets/c.png" width="100" height="100"/>  <img src="assets/bash.png" width="200" height="200"/>  <img src="assets/makefile.png" width="200" height="200"/> 
 </p>
