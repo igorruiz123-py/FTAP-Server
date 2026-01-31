@@ -2,7 +2,7 @@
 
 ## O que é?
 
-Este repositório contém dois programas escritos em C: server.c e client.c (servidor e client), eles fazem junto um protocolo de comunicação sob TCP (Transport Communication Protocol) que funciona por meio da API de socket.
+Este repositório contém dois programas escritos em C: server.c e client.c (servidor e client), eles fazem junto um protocolo de comunicação sob TCP (Transport Control Protocol) que funciona por meio da API de socket.
 
 ## Como Funciona?
 
